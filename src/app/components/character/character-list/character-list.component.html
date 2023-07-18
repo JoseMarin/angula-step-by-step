@@ -1,0 +1,7 @@
+<p>character-list works!</p>
+
+{{data | json}}
+
+<div class="container">
+    <app-character *ngFor="let char of data" [character]="char"></app-character>
+</div>
